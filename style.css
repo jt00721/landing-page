@@ -3,9 +3,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.header {
+.header, .body, .footer {
     padding: 18px 200px;
     display: flex;
+}
+
+.header {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
@@ -15,6 +18,11 @@ body {
     font-size: 24px;
     font-weight: 800;
     color: #f9faf8;
+}
+
+.body {
+    flex-direction: column;
+    flex: 1;
 }
 
 ul {
