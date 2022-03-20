@@ -25,6 +25,14 @@ body {
     flex: 1;
 }
 
+.footer {
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
 ul {
     margin: 0;
     padding: 0;
