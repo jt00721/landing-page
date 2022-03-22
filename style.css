@@ -115,6 +115,40 @@ body {
     font-weight: 500;
 }
 
+.section-4 {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section-4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 800px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.call-to-action-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #f9faf8;
+    margin-bottom: 5px;
+}
+
+.call-to-action-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#call-to-action-button {
+    border: 2px solid #f9faf8;
+    height: 40px;
+    align-self: flex-end;
+}
+
 .footer {
     justify-content: center;
     align-items: center;
@@ -155,7 +189,9 @@ a {
 button {
     padding: 6px 18px;
     border-radius: 8px;
-    border-color: #3882f6;
+    border: none;
     background-color: #3882f6;
     color: white;
+    font-weight: 600;
+    font-size: 18px;
 }
