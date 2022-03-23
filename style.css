@@ -76,23 +76,27 @@ body {
 
 .treatments {
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
 .treatment {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 200px;
+    width: 180px;
 }
 
 .text {
     margin-bottom: 0px;
     text-align: center;
+    font-size: 18px;
+    color: #6e6e6e;
 }
 
 .treatment img {
     margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
 }
 .section-3-wrapper {
     background-color: #e5e7eb;
@@ -108,7 +112,7 @@ body {
 }
 
 .section-3-width {
-    width: 840px;
+    width: 800px;
 }
 
 .quote {
@@ -133,8 +137,8 @@ body {
 .background-section-4 {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
-    width: 800px;
+    padding: 50px 100px;
+    width: 1000px;
     background-color: #3882f6;
     border-radius: 10px;
 }
@@ -154,7 +158,7 @@ body {
 #call-to-action-button {
     border: 2px solid #f9faf8;
     height: 40px;
-    align-self: flex-end;
+    align-self: center;
 }
 
 .footer {
